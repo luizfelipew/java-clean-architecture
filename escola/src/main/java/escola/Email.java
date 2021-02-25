@@ -6,7 +6,7 @@ public class Email {
 
     public Email(String endereco) {
         if (endereco == null || !endereco.matches("/^[a-z0-9.]+@[a-z0-9]+\\.[a-z]+\\.([a-z]+)?$/i")) {
-            throw new IllegalArgumentException("E-mail inválido");
+            throw new IllegalArgumentException("E-mail inválido!");
         }
         this.endereco = endereco;
     }

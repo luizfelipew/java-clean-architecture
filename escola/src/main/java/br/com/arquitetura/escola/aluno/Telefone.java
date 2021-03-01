@@ -1,4 +1,4 @@
-package escola;
+package br.com.arquitetura.escola.aluno;
 
 public class Telefone {
 

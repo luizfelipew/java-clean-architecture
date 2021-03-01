@@ -1,5 +1,6 @@
-package escola;
+package br.com.arquitetura.escola.aluno;
 
+import br.com.arquitetura.escola.aluno.Email;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

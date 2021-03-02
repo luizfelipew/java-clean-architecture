@@ -1,4 +1,4 @@
-package br.com.arquitetura.escola.aluno;
+package br.com.arquitetura.escola.dominio.aluno;
 
 public class CPF {
 

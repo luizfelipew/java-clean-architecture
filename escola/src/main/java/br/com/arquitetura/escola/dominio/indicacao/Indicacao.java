@@ -1,6 +1,6 @@
-package br.com.arquitetura.escola.indicacao;
+package br.com.arquitetura.escola.dominio.indicacao;
 
-import br.com.arquitetura.escola.aluno.Aluno;
+import br.com.arquitetura.escola.dominio.aluno.Aluno;
 
 import java.time.LocalDateTime;
 

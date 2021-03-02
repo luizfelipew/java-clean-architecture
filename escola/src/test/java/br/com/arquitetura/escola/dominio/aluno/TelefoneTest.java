@@ -1,6 +1,5 @@
-package br.com.arquitetura.escola.aluno;
+package br.com.arquitetura.escola.dominio.aluno;
 
-import br.com.arquitetura.escola.aluno.Telefone;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

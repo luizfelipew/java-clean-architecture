@@ -2,16 +2,16 @@ package br.com.arquitetura.escola.dominio.aluno;
 
 public class CPF {
 
-    private String cpf;
+    private String numero;
 
-    public CPF(String cpf) {
-        if (cpf == null || !cpf.matches("\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}")) {
+    public CPF(String numero) {
+        if (numero == null || !numero.matches("\\d{3}\\.\\d{3}\\.\\d{3}\\-\\d{2}")) {
             throw new IllegalArgumentException("Cpf inválido!");
         }
-        this.cpf = cpf;
+        this.numero = numero;
     }
 
-    public String getCpf() {
-        return cpf;
+    public String getNumero() {
+        return numero;
     }
 }

@@ -19,6 +19,6 @@ public class CpfTest {
     void deveriaPermitirCriarCPFComNumeroValido() {
         String numero = "123.456.789-00";
         CPF cpf = new CPF(numero);
-        Assertions.assertEquals(numero, cpf.getCpf());
+        Assertions.assertEquals(numero, cpf.getNumero());
     }
 }
